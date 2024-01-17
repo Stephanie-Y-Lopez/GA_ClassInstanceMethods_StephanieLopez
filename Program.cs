@@ -23,7 +23,7 @@
             Console.WriteLine("");
             Console.WriteLine("");
 
-            //Adding code required
+            //Adding code required part 1
             static List<Student> GenerateRandomStudents()
             {
                 List<Student> students = new List<Student>();
@@ -46,14 +46,12 @@
 
             {
 
-                // After your original code
+            // Adding code required part 2
 
                 List<Student> randomStudents = GenerateRandomStudents();
 
-                // Add your student to this list
                 randomStudents.Add(StephanieStudent);
 
-                // Loop and display all the info
                 foreach (Student student in randomStudents)
                 {
                     student.DisplayStudentInfo();
